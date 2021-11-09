@@ -24,12 +24,21 @@ public class LinkedList {
 
     public boolean remove(String element) {
         boolean result = false;
+
         Node previousIt = null;
+
         Node it = null;
+
         for (it = head; !result && it != null; previousIt = it, it = it.next) {
+
+
             if (0 == element.compareTo(it.data)) {
+
                 result = true;
+
                 unlink(previousIt, it);
+
+                
                 break;
             }
         }
