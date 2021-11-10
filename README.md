@@ -1,4 +1,5 @@
 # SonarQube Scanning Examples
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=org.sonarqube.gradle-multi-module-jacoco&token=30a5b016331c631b0b81c17b83690f84c1d2fb51)](https://sonarcloud.io/summary/new_code?id=org.sonarqube.gradle-multi-module-jacoco)
 
 [SonarQube SonarScanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) scanning and code coverage import examples for various languages and build tools.
 
