@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sonar-scanning-examples
+  annotations:
+    github.com/project-slug: mikeharrisontelia/sonar-scanning-examples
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
